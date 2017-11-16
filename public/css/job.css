@@ -1,0 +1,194 @@
+.recruit_container_wrapper{
+  width: 250px;
+  height: 350px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.recruit_container_img{
+  width: 240px;
+  height: 240px;
+  line-height: 220px;
+}
+
+.recruit_container_img img{
+  max-width: 220px;
+  max-height: 220px;
+  vertical-align: middle;
+}
+
+.staff_table img {
+  width: 60px;
+  height: 60px;
+}
+.recruit_apply_table_header{
+  background-color: #f4f6f7;
+}
+.recruit_button{
+  margin-right: 40%;
+  margin-top: 19.5%;
+}
+.recurit_view_detail_info{
+ text-align: left;
+ background-color: white;
+ width: 1100px;
+ height: 800px;
+ margin: 0 auto;
+}
+.recurit_view_detail_info h2{
+  color: #3f567c;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 3%;
+  padding-top: 2%;
+}
+.recurit_view_detail_info p{
+  margin-left: 3%;
+  margin-top: 40px;
+}
+.recurit_view_drama_title{
+  text-align: left;
+  margin: 0 auto;
+  background-color: #fcf8e3;
+  width: 1000px;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+.recurit_view_drama{
+  text-align: left;
+  margin-left: 25%;
+  margin-top: -11%;
+  width: 750px;
+}
+.recruit_title_header_1{
+  width: 1200px;
+  margin: 0 auto;
+}
+.recruit_title_header_1 h2{
+  margin-bottom: 10px;
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #3f567c;
+  color: white;
+  margin-left: 53px;
+}
+.recruit_title_header_2{
+  width: 1200px;
+  margin: 0 auto;
+}
+.recruit_title_header_2 h2{
+  margin-bottom: 10px;
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #3f567c;
+  color: white;
+  margin-left: 53px;
+}
+
+
+.job_table{
+  background-color: white;
+  width: 1100px;
+  margin: 0 auto;
+}
+.job_table_menu{
+  margin-bottom: 3%;
+}
+.job_actor_list_div{
+  width: 1200px;
+  margin: 0 auto;
+}
+.job_table_tr_header{
+  background-color: #f4f4f4;
+}
+.job_actor_list_table{
+  width: 1100px;
+}
+.job_actor_list_table_div{
+  background-color: white;
+  width: 1100px;
+  margin: 0 auto;
+}
+.job_actor_list_table_title h2{
+  margin-right: 72%;
+  font-size: 27px;
+  margin-top: -4.5%;
+  margin-bottom: 1%;
+  color: #3f567c;
+}
+.job_actor_list_table_title img{
+  width: 47px;
+  height: 47px;
+  margin-right: 88%;
+  margin-bottom: 10px;
+}
+.job_staff_list_table_title h2{
+  margin-right: 68%;
+  font-size: 27px;
+  margin-top: -4.5%;
+  margin-bottom: 1%;
+  color: #3f567c;
+}
+.job_staff_list_table_title img{
+  width: 47px;
+  height: 47px;
+  margin-right: 88%;
+  margin-bottom: 10px;
+}
+.job_actor_list_table_header{
+  background-color: #f4f4f4;
+}
+.job_staff_list_div{
+  width: 1200px;
+  margin: 0 auto;
+}
+.job_staff_list_table{
+  width: 1100px;
+  text-align: left;
+}
+.job_staff_list_table_div{
+  background-color: white;
+  width: 1100px;
+  margin: 0 auto;
+}
+.job_recruit_view{
+  background-color: white;
+  width: 1100px;
+  height: 700px;
+  margin: 0 auto;
+}
+.job_recruit_view h2 {
+  color: #3f567c;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 3%;
+  padding-top: 2%;
+}
+.recurit_view_info_title{
+  float: left;
+  text-align: left;
+  padding-top: 3%;
+  margin-left: 6%;
+}
+.recurit_view_info{
+  float: left;
+  text-align: left;
+  padding-top: 3%;
+  margin-left: 3%;
+}
+.recruit_drama_info_btn{
+  margin-top: 5%;
+  margin-right: 50%;
+  margin-left: -70%;
+}
+.recruit_drama_info{
+  display: none;
+}
+.recruit_view_drama_div{
+  background-color: gray;
+  width: 1000px;
+  height: 500px;
+}

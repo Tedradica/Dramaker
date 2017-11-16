@@ -1,0 +1,37 @@
+.canvas_menu{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  float: left;
+  background-color: #353535;
+}
+
+.menu_wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.menu{
+  float: left;
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.chat_menu{
+  color: white;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#canvas{
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+#menu{margin:0;padding:0;float: left;}
+#menu li{ height: 50px; width: 50px; display: block; cursor: pointer; }

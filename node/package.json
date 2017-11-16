@@ -1,0 +1,16 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "leeseunghyun",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^5.1.0",
+    "node-static": "^0.7.9",
+    "socket.io": "^2.0.3"
+  }
+}

@@ -1,0 +1,91 @@
+#map{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.resource_ppl_container_wrapper{
+  width: 280px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 10px;
+  float: left;
+}
+.resource_ppl_container_img img{
+  width: 230px;
+}
+.place_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-right: 1%;
+  float: left;
+}
+.place_container_img img{
+  width: 230px;
+  height: 200px;
+}
+.location_div{
+  width: 1100px;
+  height: 950px;
+  margin: 0 auto;
+}
+.place_categroy h2{
+  color: #567ab5;
+}
+.place_title h2{
+  font-size: 20px;
+}
+#location_map{
+  width: 1050px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.location_table{
+  width: 80%;
+  margin: 0 auto;
+}
+.location_view_div{
+  background-color: white;
+  width: 1150px;
+  height: 1400px;
+  margin: 0 auto;
+}
+.place_photo img{
+  margin-top: 2%;
+  width: 1050px;
+  height: 300px;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    margin-right: 10px;
+}
+.carousel-inner img{
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.item{
+  margin: 0 auto;
+}
+
+.equipment_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.equipment_container_img img{
+  width: 230px;
+}
+.equipment_div{
+  width: 1100px;
+  height: 1300px;
+  margin: 0 auto;
+}
+.equipment_period{
+  margin-top: 1%;
+}

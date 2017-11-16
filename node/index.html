@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ウェブオーディション</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"> -->
+
+
+  <link rel="stylesheet" href="./css/meetting.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="meetting">
+
+    <div class="meetting_title">
+      DRAMAKER
+    </div>
+
+    <div class="meetting_content">
+
+        <div class="meetting_content_left">
+          <nav>
+
+              <li>
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+              </li>
+              <li>メニュー</li>
+
+          </nav>
+        </div>
+
+        <div class="meetting_content_center" >
+          <div class="content_center_title">
+
+          </div>
+          <!-- <div id="videos-container"></div> -->
+
+          <div id="local-videos-container"></div>
+          <div id="remote-videos-container"></div>
+
+        </div>
+
+        <div class="meetting_content_right">
+
+          <div class="panel panel-default meetting_people">
+            <div class="panel-heading">
+              参加者
+            </div>
+            <div class="panel-body">
+              <ul>
+
+              </ul>
+              <!-- 사용자들이 추가됨 -->
+            </div>
+          </div>
+          <div class="panel panel-default meetting_chat">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#tab-1" data-toggle="tab" aria-expanded="true">チャット</a>
+              </li>
+              <li class>
+                <a href="#tab-2" data-toggle="tab" aria-expanded="true">チームチャット</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane active">
+                <div class="chat_all">
+
+                </div>
+                <div class="chat_input">
+
+                  <div class="input-group">
+                    <input type="text" maxlength="3000" id="chat_all_input_area" class="form-control" placeholder="ここにメッセージ内容を入力">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button" onclick="chat_send('all')">送信</button>
+                    </span>
+                  </div>
+
+                </div>
+              </div>
+              <div id="tab-2" class="tab-pane">
+                <div class="chat_team">
+
+                </div>
+                <div class="chat_input">
+
+                  <div class="input-group">
+                    <input type="text" maxlength="3000" id="chat_team_input_area" class="form-control" placeholder="ここにメッセージ内容を入力">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button" onclick="chat_send('team')">送信</button>
+                    </span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="./js/RTCMultiConnection.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- custom layout for HTML5 audio/video elements -->
+  <script src="https://cdn.webrtc-experiment.com/getMediaElement.js"></script>
+
+  <script src="./js/webrtc_v3.js"></script>
+
+  <script src="https://cdn.webrtc-experiment.com/common.js"></script>
+</body>
+</html>

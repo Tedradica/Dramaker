@@ -1,0 +1,1776 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);*/
+body{
+  /*font-family: sans-serif;*/
+  font-family: "MS PGothic";
+}
+.breadcrumb-item{
+  color: #0275d8;
+}
+.production_info_line_div{
+  /*background-color: gray;*/
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.drama_content_div{
+  margin-top: -150px;
+}
+.production_content_div{
+  width: 1200px;
+  margin-top: -190px;
+}
+.production_content_line_div{
+  width: 1210px;
+  margin: 0 auto;
+}
+.production_header{
+  font-size: 20px;
+}
+.drama_container_wrapper{
+  width: 250px;
+  height: 300px;
+  /*margin-top: 10%;*/
+  margin-right: 1%;
+  /*margin-left: 5%;*/
+  float: left;
+}
+.drama_container_img{
+  width: 230px;
+  line-height: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+.proudction_equipment_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-top: 10%;
+  margin-right: 1%;
+  /*margin-left: 3%;*/
+  float: left;
+}
+.member_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-top: 10%;
+  margin-right: 1%;
+  float: left;
+}
+.ibox-production-staff{
+  background-color: white;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-style: solid solid solid;
+  border-width: 1px;
+  width: 350px;
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 10px;
+  margin-bottom: -150px;
+  float: left;
+}
+
+/*============= production staff modal ============= */
+.modal-member-img{
+  margin: 0 auto;
+  /*background-color: gray;*/
+}
+.modal-member-img img{
+  margin-top: 4%;
+  margin-left: 180px;
+}
+.modal-member-name{
+  margin-top: 2%;
+}
+.modal-member-name-span{
+  font-size: 30px;
+  margin-left: 230px;
+}
+.modal-member-position-btn{
+  background-color: #1ab394;
+  font-size: 15px;
+}
+.modal-member-position{
+  margin-top: -30px;
+  margin-left: 330px;
+}
+.modal-member-info-div{
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+/*============= production staff modal ============= */
+.modal-staff-img{
+  margin: 0 auto;
+}
+.modal-staff-img img{
+  margin-top: 4%;
+  margin-left: 180px;
+}
+.modal-staff-name{
+  margin-top: 2%;
+}
+.modal-staff-name-span{
+  font-size: 30px;
+  margin-left: 230px;
+}
+.modal-staff-position-btn{
+  background-color: #1ab394;
+  font-size: 15px;
+}
+.modal-staff-position{
+  margin-top: -30px;
+  margin-left: 330px;
+}
+.modal-staff-info-div{
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+
+
+
+.drama_employee_list{
+  margin-left: 5%;
+}
+
+.drama_list{
+  margin-left: 5%;
+}
+.drama_equipment{
+  margin-left: 5%;
+}
+.drama_plus_icon{
+  margin-top: 3%;
+  margin-bottom: 8%;
+  width: 45px;
+  height: 45px;
+}
+.equipment_plus_icon{
+  width: 45px;
+  height: 45px;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+.employee_plus_icon{
+  width: 45px;
+  height: 45px;
+  margin-top: 3%;
+  margin-left: -96.5%;
+}
+.employee_plus_icon{
+  width: 45px;
+  height: 45px;
+  margin-top: 3%;
+  margin-left: -96.5%;
+}
+/*#new_drama h2{
+  color: #3f567c;
+  font-size: 35px;
+}*/
+.plus_icon{
+  margin-top: 3%;
+  margin-right: 20%;
+  width: 50px;
+  height: 60px;
+}
+#equipment{
+  margin-right: 50px;
+}
+#staff{
+  margin-left: 30px;
+}
+
+.recruitment_sequnece{
+  width: 100%;
+  height: 100%;
+}
+
+.recruiment_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.recruiment_staff_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.drama_view_tab_content{
+  background-color: white;
+  width: 1150px;
+  height: 1400px;
+  margin-left: 35px;
+}
+#drama_staff{
+  padding-top: 150px;
+  margin-left: 30px;
+}
+.production_header > ul{
+  border-radius: 3px;
+  /*background-color: white;*/
+  margin-left: -265px;
+  color: #A7B1C2;
+  width: 1150px;
+  font-size: 20px;
+  margin-top: 190px;
+}
+.drama_staff_plus_icon{
+  width: 45px;
+  height: 45px;
+}
+.drama_staff_add_icon_div{
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.staff_view_tab_content{
+  background-color: white;
+  width: 1150px;
+  height: 1500px;
+  margin-left: 35px;
+}
+.ibox-production{
+  background-color: white;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-style: solid solid none;
+  border-width: 1px;
+  width: 363px;
+  height: 180px;
+  margin-left: 30px;
+  float: left;
+}
+.ibox-title-production{
+  background-color: #efefef;
+}
+.ibox-production hr{
+  margin-top: -1px;
+}
+.ibox-production label{
+  font-size: 23px;
+}
+.ibox-content-production{
+  font-size: 50px;
+  margin-top: 45px;
+}
+.staff_list_div{
+  /*background-color: gray;*/
+  width: 1200px;
+  height: 3200px;
+  margin: 0 auto;
+}
+.staff_list_sort{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.staff_list_sort label{
+  font-size: 20px;
+}
+.staff_position_category{
+  margin-left: 1000px;
+  margin-bottom: 30px;
+}
+.ibox-staff{
+  background-color: white;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-style: solid solid none;
+  border-width: 1px;
+  width: 350px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+.staff_profile_img{
+  width: 90px;
+  height: 90px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+.staff_position{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 225px;
+}
+.staff_name{
+  margin-top: -140px;
+  margin-left: 30px;
+}
+.staff_team_type{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 150px;
+}
+.staff_email{
+
+  font-size: 14px;
+  text-align: left;
+  margin-left: 150px;
+}
+.staff_tel{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.production_header{
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.PPL_container_wrapper{
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.recruiment_staff_container_img img{
+  width: 230px;
+}
+.drama_container_img img{
+  width: 230px;
+}
+.equipment_container_img img{
+  width: 230px;
+}
+.member_container_img img{
+  width: 230px;
+  height: 250px;
+}
+.staff_list_container_img img{
+  width: 230px;
+}
+.recruiment_container_img img{
+  width: 230px;
+}
+/*.production_drama_view_img img{
+  max-width: 300px;
+  max-height: 300px;
+}*/
+.proudction_equipment_container_img img{
+  width: 230px;
+}
+.PPL_container_img img{
+  width: 230px;
+}
+.production_drama_view_detail{
+  margin-left: 600px;
+  margin-top: -240px;
+  text-align: left;
+}
+
+.production_drama_view_list > div{
+  margin-top: 20px;
+}
+
+#employee_chart{
+  margin-top: 100px;
+  margin-left: 410px;
+}
+
+
+/* drama_equipment  */
+
+
+#modal_equipment_add{
+  height: 650px;
+  overflow:scroll;
+}
+
+.equipment_status_p{
+    color:green;
+}
+.equipment_status_u{
+    color:orange;
+}
+.equipment_status_ip{
+    color:red;
+    text-decoration: line-through;
+}
+.modal-content{
+  text-align: left;
+}
+.modal-content label{
+  color: #3d424c;
+}
+
+/*============= production_drama_views ============= */
+
+.drama_view{
+  background-color: white;
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+.production_drama_menu{
+  /*background-color: white;*/
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+}
+.drama_title_v{
+  text-align: left;
+  color: #3f567c;
+  font-size: 35px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.drama_img img{
+  width: 25%;
+  margin-left: 70px;
+  margin-top: 10px;
+  float: left;
+}
+.drama_info{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: -8px;
+  text-align: left;
+  float: left;
+}
+.drama_info label{
+  color: #3d424c;
+}
+.drama_info_producer_img img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.drama_info_write_img img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.drama_info_actor_img img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.drama_info_producer{
+  margin-top: 15px;
+}
+.drama_info_writer_div{
+  margin-left: 73px;
+  margin-top: -75px;
+}
+.drama_info_producer label{
+  color: #3f567c;
+}
+.drama_info_writer label{
+  color: #3f567c;
+}
+.drama_info_actor label{
+  color: #3f567c;
+}
+.panel-heading{
+  font-size: 15px;
+  width: 330px;
+}
+.panel-default{
+  width: 330px;
+  height: 190px;
+  margin-left: 100px;
+  margin-right: -70px;
+  float: left;
+}
+.panel-body{
+  font-size: 15px;
+  text-align: left;
+}
+
+.staff_info > table{
+  font-size: 15px;
+}
+.employee_add_label{
+  font-size: 15px;
+}
+.staff_add_icon{
+  /*margin-rig
+  ht: 40px;
+  margin-top: 47px;*/
+  margin-top: -65px;
+  margin-left: 475px;
+}
+.ibox_employees_add{
+  background-color: white;
+  padding: 15px 50px 20px 20px;
+  border-color: #e7eaec;
+  border-style: solid solid none;
+  border-width: 1px;
+  width: 45%;
+  height: 700px;
+  margin-left: 45px;
+  float: left;
+}
+.ibox_staff_info{
+  background-color: white;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-style: solid solid none;
+  border-width: 1px;
+  width: 45%;
+  height: 700px;
+  margin-left: 30px;
+  float: left;
+}
+.staff_add_submit{
+  margin-top: -50px;
+  margin-left: 140px;
+}
+.drama_staff_add{
+  margin-bottom: -10px;
+}
+.script_btn{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-left: 150px;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+.schedule_btn{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+.staff_btn{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.staffpull_btn{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-left: 150px;
+}
+.recruit_btn{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-left: 10px;
+}
+.script_icon{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  float: left;
+}
+.chart_btn{
+  width: 250px;
+  height: 100px;
+  margin-left: 10px;
+  float: left;
+}
+#production_drama_view_list_section{
+  height: 300px;
+}
+#production_drama_title_section{
+  height: 630px;
+}
+.drama_view_icon_lg_title{
+  float: right;
+  font-size: 20px;
+  margin-right: 25px;
+  color: #3f567c;
+}
+.drama_view_icon_sm_title{
+  float: right;
+  margin-right: 30px;
+}
+.recruitment_main_title{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #3f567c;
+}
+.recruitment_main_title_h2{
+  text-align: left;
+  margin-left: 50px;
+}
+.recruiment_label{
+  font-size: 30px;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.recruitment_sequnece{
+  background-color: white;
+  /*padding-top: 3%;*/
+  margin: auto;
+  width: 1100px;
+  height: 1000px;
+}
+.recruiment_table{
+  font-size: 20px;
+}
+.recruit{
+  display: none;
+  width: 300px;
+}
+
+/*============= script ============= */
+
+
+.script_info_form{
+  height: auto;
+  background-color: white;
+  margin: 50px;
+}
+
+
+.script_actor_add_list{
+  width: 400px;
+  height: 430px;
+  float: left;
+}
+.script_actor_add_info{
+  width: 330px;
+  height: 430px;
+  float: left;
+}
+#actor-tab-1{
+  width: 100%;
+  height: 400px;
+}
+#actor-tab-2{
+  width: 100%;
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* 대본 캐릭터 추가 부분 */
+.script_actor_add_table{
+  width: 350px;
+  max-height: 400px;
+}
+
+.script_actor_add_table tr{
+  height: 40px;
+}
+.script_actor_add_table tr td{
+  height: 30px;
+  line-height: 30px;
+}
+.script_actor_add_table img{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+/*.script_actor_add_img{
+  margin-top: 2px;
+  width: 30px;
+  height: 30px;
+}*/
+.staff_info_title{
+  width: 300px;
+  height: 150px;
+}
+.staff_info_title img{
+  width: 110px;
+  height: 110px;
+}
+.staff_info_title_name{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.staff_info_title_about{
+  padding-top: 18px;
+  text-align: left;
+  font-size: 14px;
+}
+.staff_info_title_about span{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.staff_info_detail{
+  width: 300px;
+  height: 300px;
+}
+
+.staff_info_detail_table_label{
+  width: 90px;
+}
+
+#btn_character_actor_create{
+  margin-bottom: 3px;
+}
+
+#character_add_list .modal-content{
+  width: 800px;
+  height: 850px;
+  text-align: center;
+}
+#character_add_list .modal-content-script-actor{
+  height: 460px;
+}
+#character_add_list .character-modal-body{
+  height: 230px;
+  overflow: auto;
+}
+
+#actor_list_view{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+
+}
+
+#character-tab-1{
+  overflow: hidden;
+  /*display: inline-block;*/
+}
+#character-tab-2{
+  overflow: hidden;
+  /*display: inline-block;  */
+}
+.script_actor_list{
+  width: 100px;
+  height: 160px;
+  /*border: 1px solid grey;*/
+  text-align: center;
+  float: left;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.script_actor_list img{
+  width: 80px;
+  height: 100px;
+}
+
+
+/*============= schedule ============= */
+
+.schedule_info{
+  display: inline-block;
+  width: 95%;
+}
+
+.schedule_table_info table td{
+  width: 32%;
+}
+
+.ibox {
+    /*clear: both;*/
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 15px 15px 7px;
+    min-height: 48px;
+}
+
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+/* ============ weather ============ */
+
+#schedule_info_weather_add_btn{
+  float: right;
+  /*margin-left: 50px;*/
+}
+
+#schedule_info_weather{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#schedule_info_weather_title{
+  font-size: 13px;
+}
+#schedule_info_weather_content{
+  font-size: 30px;
+}
+
+#schedule_weather_am img{
+  width: 50px;
+}
+#schedule_weather_pm img{
+  width: 50px;
+}
+
+#weather .modal-content{
+  width: 750px;
+
+}
+
+#weather .modal-body{
+  width: 750px;
+  height: 610px;
+  position: relative;
+}
+
+.weather_map{
+  display: inline-block;
+  width: 400px;
+  height: 600px;
+  float: left;
+}
+
+.weather_info{
+  display: inline-block;
+  width: 300px;
+  height: 600px;
+  float: left;
+}
+.weather_info_title{
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  color: black;
+  font-size: 15px;
+}
+#local_info_title{
+    height: auto;
+    padding-left: 5px;
+}
+
+.local_info_left{
+  float: left;
+  width: 45%;
+  padding-left: 5px;
+}
+.local_info_right{
+  float: left;
+  width: 55%;
+}
+.local_info_date{
+  height: auto;
+  margin-top: 5px;
+}
+.local_info_name{
+  height: auto;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.local_info_temperature{
+  height: auto;
+  margin-top: 10px;
+}
+
+.local_info_status{
+  height: 100px;
+  text-align: center;
+}
+#local_info_img1{
+  float: left;
+  width: 50%;
+}
+#local_info_img2{
+  float: left;
+  width: 50%;
+}
+.local_info_img_title{
+  height: auto;
+  font-size: 8px;
+}
+.local_info_img{
+  height: 70px;
+}
+.local_info_img img{
+  height: 70px;
+}
+.local_info_weather_status{
+  height: auto;
+}
+
+
+
+
+.weather_info_content{
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  color: black;
+  font-size: 15px;
+}
+
+#korea_map{
+  width: 400px;
+  height: 600px;
+}
+
+#weather_info_table{
+
+}
+#weather_info_table tr{
+  margin-bottom: 3px;
+}
+#weather_info_table th{
+  text-align: center;
+}
+#weather_info_table td{
+  text-align: center;
+}
+
+.weahter_info_table_date{
+
+}
+.weahter_info_table_am img{
+  margin: 0 auto;
+  width: 50px;
+  vertical-align: middle;
+}
+.weahter_info_table_pm img{
+  margin: 0 auto;
+  width: 50px;
+  vertical-align: middle;
+}
+.weahter_info_table_ht{
+  color: red;
+}
+.weahter_info_table_lt{
+  color: blue;
+}
+
+
+/* 마커 */
+
+#map_marker{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+}
+.marker{
+  position: absolute;
+  width: 35px;
+  height: 55px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.marker:hover{
+  background-color: rgba(0, 0, 255, 0.3);
+  cursor: pointer;
+}
+.marker dt{
+  width: 35px;
+  height: 20px;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.weather_img{
+  width: 35px;
+  height: 35px;
+}
+.weather_img img{
+  width: 35px;
+}
+
+/*지역별 마커 위치*/
+
+.incheon{
+  left: 60px;
+  top: 100px;
+}
+.seoul{
+  left: 120px;
+  top: 80px;
+}
+.chuncheon{
+  left: 190px;
+  top: 50px;
+}
+.gangneung{
+  left: 250px;
+  top: 60px;
+}
+.suwon{
+  left: 105px;
+  top: 130px;
+}
+.seosan{
+  left: 80px;
+  top: 200px;
+}
+.cheongju{
+  left: 160px;
+  top: 180px;
+}
+.andong{
+  left: 245px;
+  top: 210px;
+}
+.daejeon{
+  left: 155px;
+  top: 230px;
+}
+.jeonju{
+  left: 125px;
+  top: 270px;
+}
+.daegu{
+  left: 250px;
+  top: 265px;
+}
+.pohang{
+  left: 300px;
+  top: 240px;
+}
+.ulsan{
+  left: 330px;
+  top: 270px;
+}
+.mokpo{
+  left: 85px;
+  top: 400px;
+}
+.gwangju{
+  left: 115px;
+  top: 350px;
+}
+.yeosu{
+  left: 180px;
+  top: 370px;
+}
+.changwon{
+  left: 245px;
+  top: 350px;
+}
+.busan{
+  left: 280px;
+  top: 340px;
+}
+.ulleung{
+  left: 360px;
+  top: 210px;
+}
+.jeju{
+  left: 80px;
+  top: 530px;
+}
+
+
+
+
+/* ============ meetting ============ */
+
+#schedule_meetting_modal .modal-content{
+  width: 700px;
+}
+
+#map{
+  width: 500px;
+  height: 300px;
+}
+
+.schedule_info_left{
+  width: 30%;
+}
+.schedule_info_right{
+  width: 70%;
+}
+
+
+
+.schedule_meetting_content{
+  width: 90%;
+  margin: 0 auto;
+}
+.schedule_meetting_content #schedule_meetting_team_time_th{
+  width: 130px;
+}
+.schedule_meetting_content #schedule_meetting_location_th{
+
+}
+.schedule_meetting:hover{
+  background-color: #FAF4C0;
+}
+.schedule_meetting span{
+  margin-right: 20px;
+}
+
+.schedule_meetting_team  button{
+  width: 100px;
+}
+.schedule_meetting_team  button:hover{
+  background-color: skyblue;
+}
+/* 집합시간 및 장소에서 team 선택했을때 */
+.meeting_check{
+  background-color: skyblue;
+}
+/* 이미 추가된 team일때 */
+.team_status_check{
+  background-color: #BDBDBD;
+}
+
+
+
+.schedule_content{
+  width: 100%;
+  height: 900px;
+  display:inline-block;
+  margin: 0 auto;
+}
+
+.schedule_content_left{
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
+.schedule_content_right{
+  width: 75%;
+  height: auto;
+  float: left;
+}
+
+.schedule_scene_ibox{
+  height: 400px;
+}
+.schedule_team_ibox{
+  height: 500px;
+}
+.schedule_read_team_wrapper{
+  width: 100%;
+}
+
+/* schedule_read */
+.schedule_read_team_ibox{
+  width: 20%;
+  float: left;
+}
+.schedule_read_team_ibox > .ibox-content{
+  height: 300px;
+  overflow-y: scroll;
+}
+.schedule_read_staff_info{
+  height: 50px;
+}
+.schedule_read_team_ibox img{
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+
+.schedule_read_team_ibox > .ibox-content::-webkit-scrollbar
+{
+   width: 8px;
+   background-color: #F5F5F5;
+}
+
+.schedule_read_team_ibox > .ibox-content::-webkit-scrollbar-thumb
+{
+  border-radius:5px;
+   background-color: #555;
+}
+
+.schedule_scene{
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+.schedule_scene #schedule_table {
+  /*border: 1px solid gray;*/
+}
+.schedule_scene #schedule_table th{
+  text-align: center;
+}
+.schedule_scene #schedule_table tr > .scene_no{
+  width: 50px;
+}
+.schedule_scene #schedule_table tr > .scene_location{
+  /*width: 100px;*/
+}
+.schedule_scene #schedule_table tr > .scene_dn{
+  width: 75px;
+}
+.schedule_scene #schedule_table tr > .scene_sol{
+  width: 75px;
+}
+.schedule_scene #schedule_table tr > .scene_ie{
+  width: 75px;
+}
+.schedule_scene #schedule_table tr > .scene_summary{
+  /*width: 30px;*/
+}
+.schedule_scene #schedule_table tr > .scene_etc{
+  /*width: 30px;*/
+}
+.schedule_scene #schedule_table tr > .scene_status{
+  /*width: 30px;*/
+}
+.schedule_scene #schedule_table tr > .scene_delete_btn{
+  width: 60px;
+}
+
+
+.team_schedule_ibox{
+  width: 100%;
+  display: inline-block;
+}
+
+/* 추가된 스태프 수 표시 */
+.badge{
+  background-color: #E27689;
+}
+
+.team_schedule_ibox > .team_schedule_tab > .tab-content > .tab-pane {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.team_schedule_addBtn{
+  float: right;
+}
+
+
+.team_schedule_content{
+  width: 100%;
+  height: 250px;
+  overflow-y:scroll;
+  float: left;
+}
+
+.team_schedule_content_staff{
+  width: 70%;
+  height: 100%;
+  float: left;
+  border-right: 2px solid grey;
+}
+.team_schedule_content_todo{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+
+.team_schedule_staff{
+  width: 50%;
+  height: 70px;
+  float: left;
+  text-align: left;
+  margin-top: 10px;
+}
+.team_schedule_staff img{
+  float: left;
+  margin-right: 10px;
+}
+
+.team_schedule_staff li{
+  height: 20px;
+}
+/*.schedule_team table th{
+  text-align: center;
+  border: 1px solid gray;
+}
+.schedule_team table td{
+  height: 200px;
+  border: 1px solid gray;
+}*/
+
+
+.schedule_scene_info{
+  width: 100%;
+  max-height: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.schedule_scene_info table {
+  display: block;
+}
+.schedule_scene_info table th{
+  text-align: center;
+}
+.schedule_scene_info table tr{
+
+}
+.schedule_scene_info table td{
+
+}
+.schedule_scene_info table tbody{
+  display: block;
+  height: 750px;
+  overflow: scroll;
+}
+.schedule_scene_info table th:nth-of-type(1), .schedule_scene_info table td:nth-of-type(1){width: 400px;}
+.schedule_scene_info table th:nth-of-type(2){width: 50px;}
+.schedule_scene_info table td:nth-of-type(2){width: calc(50px - 8px);}
+
+.schedule_scene_info table td li {
+  text-align: left;
+  list-style: none;
+  font-size: 14px;
+}
+.schedule_scene_info table td li ul{
+  display: none;
+}
+.characters{
+  display: inline-block;
+}
+.schedule_scene_info_btn{
+  width: 90% !important;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.schedule_scene_info_btn span{
+  float: right;
+  vertical-align: middle;
+}
+.scene_location_sort_content_btn{
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.scene_location_sort_content_btn span{
+  float: right;
+  vertical-align: middle;
+}
+
+
+/*.schedule_scene_info{
+  width: 95%;
+  max-height: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.schedule_scene_info table {
+  display: block;
+  width: 253px;
+  border: 1px solid gray;
+}
+.schedule_scene_info table th{
+  text-align: center;
+}
+.schedule_scene_info table td{
+}
+.schedule_scene_info table tbody{
+  display: block;
+  height: 600px;
+  overflow: scroll;
+}
+.schedule_scene_info table th:nth-of-type(1), .schedule_scene_info table td:nth-of-type(1){width: 200px;}
+.schedule_scene_info table th:nth-of-type(2){width: 50px;}
+.schedule_scene_info table td:nth-of-type(2){width: calc(50px - 8px);}
+
+.schedule_scene_info table td li {
+  list-style: none;
+}
+.schedule_scene_info table td li ul{
+  display: none;
+}
+
+.schedule_scene_info_btn{
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}*/
+
+.schedule_read{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/*#schedule_scene_info_table::-webkit-scrollbar-track
+{
+   -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+   background-color: #F5F5F5;
+}*/
+
+#schedule_scene_info_table::-webkit-scrollbar
+{
+   width: 8px;
+   background-color: #F5F5F5;
+}
+
+#schedule_scene_info_table::-webkit-scrollbar-thumb
+{
+  border-radius:5px;
+   background-color: #555;
+}
+
+
+#schedule_team_table th{
+  text-align: center;
+}
+
+#schedule_team_table tr > th{
+  width: 20%;
+}
+#schedule_team_table td{
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+#schedule_staff_add_table th{
+  text-align: center;
+}
+
+#schedule_staff_add_table td{
+  height: 10px;
+}
+
+
+#schedule_todo_add_table th{
+  text-align: center;
+}
+#schedule_todo_add_table tbody > tr > input{
+  margin-top: 5px;
+}
+#schedule_todo_add_table tr > .team_schedule_todo{
+  width: 90%;
+}
+#schedule_todo_add_table tr > .team_schedule_todo_add{
+  width: 10%;
+}
+
+
+#schedule_read_table{
+  border: 1px solid grey;
+  text-align: center;
+}
+#schedule_read_table th{
+    text-align: center;
+}
+#schedule_read_table_team th{
+  text-align: center;
+}
+#schedule_read_table_team tbody td{
+  height: 200px;
+  width: 20%;
+  text-align: center;
+}
+
+
+
+/*============= staffpull ============= */
+
+.staff_pull_select{
+  background-color: white;
+  width: 1100px;
+  margin: 0 auto;
+}
+.staff_pull_date_select{
+  margin: 0 auto;
+  /*width: 500px;*/
+}
+
+.staffpull_input_date{
+  /*width: 200px;*/
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+/*  체크 박스  */
+.staffpull_checkbox{
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.staffpull_checkbox_margin{
+  margin-top: 5px;
+}
+
+.checkbox{
+  float: left;
+  height: 25px;
+  margin: 0px 0px 0px 0px;
+}
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+
+/*  체크 박스  */
+
+.staffpull_possible{
+  color: green;
+}
+.staffpull_consultation{
+  color: orange;
+}
+.staff_pull_select_label label{
+  margin-top: 3%;
+  margin-right: 85%;
+  color: #3f567c;
+}
+.staffpull_input_type_label label{
+  margin-top: 1%;
+  margin-right: 85%;
+  color: #3f567c;
+}
+#staffpull_search{
+  width: 200px;
+  margin-bottom: 3%;
+}
+#staffpull_table{
+  background-color: white;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+#script_area  textarea {
+   min-height: 40px !important;
+}
+
+#staffpull_user_info_table{
+  text-align: center;
+}
+
+#staffpull_user_info_table img {
+  max-width: 500px;
+}
+
+/*============= recruitment ============= */
+.recruit_choose_btn{
+  background-color: #1ab394;
+  float: center;
+}
+.recruit_nochoose_btn{
+  background-color: #d1dade;
+  color: #5e5e5e;
+}
+.recruit_table{
+  font-size: 20px;
+}
+.recruit_table tr{
+
+}
+
+/*====================================================================*/
+
+/*.production_drama_view_list_schedule{
+  margin-right: 700px;
+}
+.production_drama_view_list_script{
+  margin-right: 300px;
+  margin-top: -140px;
+}
+.production_drama_view_list_equipment{
+  margin-left: -700px;
+  margin-top: -1px;
+}
+.production_drama_view_list_staff{
+  margin-left: 100px;
+  margin-top: -140px;
+}
+.production_drama_view_list_ppl{
+  margin-left: 500px;
+  margin-top: -140px;
+}
+.production_drama_view_list_staffpull{
+  margin-left: -300px;
+  margin-top: -140px;
+}
+.production_drama_view_list_recruit{
+  margin-right: -100px;
+  margin-top: -140px;
+}
+.production_drama_view_list_meeting{
+  margin-left: 500px;
+  margin-top: -279px;
+}*/
+
+/*.production_drama_view_list a {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    margin: 20px auto;
+    max-width: 180px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px 30px;
+}
+
+.production_drama_view_list a.button2 {
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.production_drama_view_list a.button2:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 150px 0px 2px inset;
+}*/
+
+
+
+/*============= chart (작품통계) ============= */
+
+
+.drama_chart_info{
+  display: inline-block;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.drama_chart_info_left{
+  width: 50%;
+  float: left;
+}
+.drama_chart_info_right{
+  width: 50%;
+  float: left;
+}
+
+.drama_chart_info_widget{
+  display: inline-block;
+  background-color: #F15F5F;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.drama_chart_info_widget_left{
+  float: left;
+  width: 40%;
+}
+.drama_chart_info_widget_right{
+  float: left;
+  width: 60%;
+}
+
+.drama_chart_top{
+  display: inline-block;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.drama_chart_left{
+  float: left;
+  width: 50%;
+}
+.drama_chart_right{
+  float: left;
+  width: 50%;
+}
+
+.drama_chart_info_title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.drama_chart_value{
+  margin-top: 10px;
+  font-size: 35px;
+}
+.drama_chart_info_content img{
+  border: 4px solid white;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+/* chart관련 css */
+.chart{
+  width: 80%;
+  margin: 0 auto;
+}

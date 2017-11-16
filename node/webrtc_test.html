@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>회의 테스트</title>
+
+    <!-- jQeury -->
+    <script src="http://reali.kr/js/jquery.min.js" type="text/javascript"></script>
+
+    <!-- css -->
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Canvas -->
+    <link rel="stylesheet" href="./css/canvas.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <!-- Canvas -->
+
+
+
+  </head>
+  <body>
+
+    <div class="meeting_title">
+      Online Meeting
+    </div>
+    <div class="meeting_wrapper">
+      <div class="file">
+        <div class="file_title">
+          공유 파일
+        </div>
+        <div class="file_list">
+          <div class="file_upload_list" id="file_upload_list">
+            <input type="file" id="input_file" style="display:none"; multiple="multiple" onchange="handleFiles(this.files)">
+            <div id="file_upload_button" class="file_layout">
+                파일 업로드
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="canvas">
+          <div class="canvas_menu">
+            <div class="menu_wrapper">
+              <div class="menu" id="menu1">menu1</div>
+              <div class="menu" id="menu2">menu2</div>
+              <div class="menu" id="menu3">menu3</div>
+              <div class="menu" id="menu4">menu4</div>
+              <div class="menu" id="menu5">menu5</div>
+              <div class="menu" id="menu6">menu6</div>
+            </div>
+            <div class="chat_menu">
+              <button type="button" id="chat_toggle" class="btn btn-default">
+                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <canvas id="canvas" width="1200" height="1000"></canvas>
+          </div>
+
+      </div>
+      <div class="chat">
+        <h2>채팅</h2>
+        <!-- <iframe src="http://106.249.36.53:9001" frameborder="0" scrolling="no" width="90%" height="800px">test</iframe> -->
+        <iframe src="http://54.92.37.34:9001" frameborder="0" scrolling="no" width="90%" height="800px">test</iframe>
+      </div>
+      <div class="video">
+        <h2>사용자</h2>
+        <div id="videos">
+          <video id="localVideo" autoplay muted></video>
+          <video id="remoteVideo" autoplay></video>
+          <!-- <video id="remoteVideo1" autoplay></video>
+          <video id="remoteVideo2" autoplay></video> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/lib/adapter.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/chat.js"></script>
+
+  </body>
+</html>
